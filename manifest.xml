@@ -6,8 +6,7 @@
         <ProviderName>Microsoft</ProviderName>
         <DefaultLocale>en-US</DefaultLocale>
         <DisplayName DefaultValue="Remove Me"/>
-        <Description DefaultValue="Watch YouTube videos referenced in the e-mails you receive without leaving your email client.">
-            <Override Locale="fr-fr" Value="Visualisez les vidéos YouTube référencées dans vos courriers électronique directement depuis Outlook et Outlook Web App."/>
+        <Description DefaultValue="Stop Reply All Threads When Everyone Says 'Remove Me From This DL'">
         </Description>
         <IconUrl DefaultValue="https://localhost:3000/assets/icon-32.png"/>
         <Hosts>
@@ -21,11 +20,11 @@
         <FormSettings>
             <Form xsi:type="ItemRead">
                 <DesktopSettings>
-                    <SourceLocation DefaultValue="https://localhost:3000/youtube.html"/>
+                    <SourceLocation DefaultValue="https://localhost:3000/removeme.html"/>
                     <RequestedHeight>108</RequestedHeight>
                 </DesktopSettings>
                 <TabletSettings>
-                    <SourceLocation DefaultValue="https://localhost:3000/youtube.html"/>
+                    <SourceLocation DefaultValue="https://localhost:3000/removeme.html"/>
                     <RequestedHeight>108</RequestedHeight>
                 </TabletSettings>
             </Form>
@@ -35,7 +34,6 @@
             <Rule xsi:type="ItemIs" ItemType="Message" FormType="Read" />
             <Rule xsi:type="ItemIs" ItemType="Appointment" FormType="Read" />
             <Rule xsi:type="ItemHasKnownEntity" EntityType="EmailAddress" />
-            <Rule xsi:type="ItemHasRegularExpressionMatch" PropertyName="BodyAsPlaintext" RegExName="VideoURL" RegExValue="https?://(((www\.)?youtube\.com/watch\?v=)|(youtu\.be/))[a-zA-Z0-9_-]{11}"/>
         </Rule>
         <DisableEntityHighlighting>false</DisableEntityHighlighting>
 </OfficeApp>

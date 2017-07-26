@@ -177,13 +177,33 @@
                 if (recipents[i].hasOwnProperty('recipientType') && (recipents[i])['recipientType'] == 'distributionList') {
                     html += JSON.stringify(recipents[i]['displayName']) + "<strong><a href='google.com'> Join </a></strong> or <strong><a href='google.com'> Leave</a> </strong><br>";
                 }
+                else
+                {
+                    // for test to see why it is skipped
+                    // normally, comment out:
+                    //html += JSON.stringify(recipents[i]) + " *** <br>";
+                }
                 // {"emailAddress":"ipgspartans@microsoft.com","displayName":"AI&R Spartans","recipientType":"distributionList"} Join , Leave 
                 //html +="<td>"+JSON.stringify(emails[i])+"</td>";
                 //html += JSON.stringify(recipents[i]) + "<strong><a href='google.com'> Join </a></strong>,<strong> Leave </strong><br>";
                 //html += JSON.stringify(recipents[i]) + "<br>";
             }
-
+            
             //html = "<table><tr>" + html + "</tr></table>";
+            if (html.length <= 0) {
+                // no DL found
+                html = "No distribution list was found in this email."
+            }
+            html += "1 <BR>";
+            html += "1 <BR>";
+            html += "1 <BR>";
+            html += "1 <BR>";
+            html += "1 <BR>";
+            html += "1 <BR>";
+            html += "1 <BR>";
+            html += "1 <BR>";
+            html += "1 <BR>";
+            
             document.getElementById("thumbnails").innerHTML = html;
         };
 
