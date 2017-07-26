@@ -22,11 +22,11 @@
             <Form xsi:type="ItemRead">
                 <DesktopSettings>
                     <SourceLocation DefaultValue="https://localhost:3000/youtube.html"/>
-                    <RequestedHeight>216</RequestedHeight>
+                    <RequestedHeight>108</RequestedHeight>
                 </DesktopSettings>
                 <TabletSettings>
                     <SourceLocation DefaultValue="https://localhost:3000/youtube.html"/>
-                    <RequestedHeight>216</RequestedHeight>
+                    <RequestedHeight>108</RequestedHeight>
                 </TabletSettings>
             </Form>
         </FormSettings>
