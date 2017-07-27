@@ -20,11 +20,11 @@
         <FormSettings>
             <Form xsi:type="ItemRead">
                 <DesktopSettings>
-                    <SourceLocation DefaultValue="http://removeme.azurewebsites.net/removeme.html"/>
+                    <SourceLocation DefaultValue="https://removeme.azurewebsites.net/removeme.html"/>
                     <RequestedHeight>108</RequestedHeight>
                 </DesktopSettings>
                 <TabletSettings>
-                    <SourceLocation DefaultValue="http://removeme.azurewebsites.net/removeme.html"/>
+                    <SourceLocation DefaultValue="https://removeme.azurewebsites.net/removeme.html"/>
                     <RequestedHeight>108</RequestedHeight>
                 </TabletSettings>
             </Form>
