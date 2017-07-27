@@ -6,8 +6,8 @@
         <ProviderName>Microsoft</ProviderName>
         <DefaultLocale>en-US</DefaultLocale>
         <DisplayName DefaultValue="Add/Remove Me"/>
-        <Description DefaultValue="Join or Leave a DL from your InBox">
-        </Description>
+        <Description DefaultValue="Join or Leave a DL from your InBox" />
+        <ShortDescription DefaultValue="Join or Leave a DL">
         <IconUrl DefaultValue="https://removeme.azurewebsites.net/assets/logo32.png"/>
         <Hosts>
             <Host Name="Mailbox" />
