@@ -175,7 +175,7 @@
                 //  "recipientType":"distributionList"}
                 // We will only return "distributionList"
                 if (recipents[i].hasOwnProperty('recipientType') && (recipents[i])['recipientType'] == 'distributionList') {
-                    html += JSON.stringify(recipents[i]['displayName']) + "<strong><a href='google.com'> Join </a></strong> or <strong><a href='google.com'> Leave</a> </strong><br>";
+                    html += JSON.stringify(recipents[i]['displayName']) + "<strong><a href='http://idwebelements/GroupManagement.aspx?Group=ykmsft&Operation=join' target='_blank'> Join </a></strong> or <strong><a href='http://idwebelements/GroupManagement.aspx?Group=ykmsft&Operation=leave' target='_blank'> Leave</a> </strong><br>";
                 }
                 else
                 {
