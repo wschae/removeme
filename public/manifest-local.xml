@@ -8,7 +8,7 @@
         <DisplayName DefaultValue="Add/Remove Me"/>
         <Description DefaultValue="Join or Leave a DL from your InBox">
         </Description>
-        <IconUrl DefaultValue="https://removeme.azurewebsites.net/assets/logo32.png"/>
+        <IconUrl DefaultValue="https://localhost:3000/public/assets/logo32.png"/>
         <Hosts>
             <Host Name="Mailbox" />
         </Hosts>
@@ -20,11 +20,11 @@
         <FormSettings>
             <Form xsi:type="ItemRead">
                 <DesktopSettings>
-                    <SourceLocation DefaultValue="https://removeme.azurewebsites.net/removeme.html"/>
+                    <SourceLocation DefaultValue="https://localhost:3000/public/removeme.html"/>
                     <RequestedHeight>70</RequestedHeight>
                 </DesktopSettings>
                 <TabletSettings>
-                    <SourceLocation DefaultValue="https://removeme.azurewebsites.net/removeme.html"/>
+                    <SourceLocation DefaultValue="https://localhost:3000/public/removeme.html"/>
                     <RequestedHeight>70</RequestedHeight>
                 </TabletSettings>
             </Form>

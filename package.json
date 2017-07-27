@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "scripts": {
     "start": "node app.js",
-    "start-dev": "browser-sync start --config bsconfig.json",
+    "dev": "browser-sync start --config bsconfig.json",
     "validate": "./node_modules/.bin/validate-office-addin"
   },
   "dependencies": {
