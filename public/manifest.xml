@@ -8,7 +8,7 @@
         <DisplayName DefaultValue="Remove Me"/>
         <Description DefaultValue="Stop Reply All Threads When Everyone Says 'Remove Me From This DL'">
         </Description>
-        <IconUrl DefaultValue="https://localhost:3000/assets/icon-32.png"/>
+        <IconUrl DefaultValue="http://removeme.azurewebsites.net/assets/icon-32.png"/>
         <Hosts>
             <Host Name="Mailbox" />
         </Hosts>
@@ -20,11 +20,11 @@
         <FormSettings>
             <Form xsi:type="ItemRead">
                 <DesktopSettings>
-                    <SourceLocation DefaultValue="https://localhost:3000/removeme.html"/>
+                    <SourceLocation DefaultValue="http://removeme.azurewebsites.net/removeme.html"/>
                     <RequestedHeight>108</RequestedHeight>
                 </DesktopSettings>
                 <TabletSettings>
-                    <SourceLocation DefaultValue="https://localhost:3000/removeme.html"/>
+                    <SourceLocation DefaultValue="http://removeme.azurewebsites.net/removeme.html"/>
                     <RequestedHeight>108</RequestedHeight>
                 </TabletSettings>
             </Form>
